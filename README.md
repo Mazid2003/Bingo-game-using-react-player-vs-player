@@ -1,4 +1,4 @@
-# 🎉 Bingo Game 🎉
+# 🎉 Bingo Game player vs player 🎉
 
 A fun two-player Bingo game built with React.js. This game allows two players to play alternately, marking numbers on their own boards while ensuring that each player can only see their own board.
 

@@ -24,15 +24,15 @@ If Node.js is not installed, download it from 👉 Node.js Official Website
 
 This project uses the following npm packages:
 
-Dependency	Version	Purpose
+Dependency	      Version	        Purpose
 
-React	^18.0.0	Core library for building the UI
+React             ^18.0.0	        Core library for building the UI
 
-React Hooks	Built-in	Used for managing component state (useState, useEffect)
+React Hooks	      Built-in	      Used for managing component state (useState, useEffect)
 
-Tailwind CSS	^3.0.0	Utility-based styling framework
+Tailwind CSS	    ^3.0.0	        Utility-based styling framework
 
-Custom CSS	Custom	Enhances game board design
+Custom CSS	       Custom	        Enhances game board design
 
 3️⃣ Installation Guide
 

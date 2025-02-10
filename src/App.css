@@ -1,0 +1,150 @@
+/* Center the game */
+.p-5 {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Winner Message */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #e74c3c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  animation: winner-glow 1.5s infinite alternate;
+}
+
+@keyframes winner-glow {
+  from {
+    text-shadow: 2px 2px 6px rgba(231, 76, 60, 0.5);
+  }
+  to {
+    text-shadow: 2px 2px 12px rgba(231, 76, 60, 0.8);
+  }
+}
+
+/* Board Container */
+.border {
+  border: 3px solid #2c3e50;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #ecf0f1, #bdc3c7);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+.border:hover {
+  transform: scale(1.02);
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.grid-cols-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid-cols-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 100%;
+}
+
+/* Button Styles */
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 2px solid #34495e;
+  background: white;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background: #ecf0f1;
+  transform: scale(1.1);
+}
+
+/* Marked numbers */
+button.bg-green-500 {
+  background: #27ae60 !important;
+  color: white !important;
+  box-shadow: 0 3px 5px rgba(39, 174, 96, 0.2);
+  transform: scale(1.05);
+}
+
+button.bg-green-500:hover {
+  background: #219150;
+}
+
+/* Restart Button */
+button.mt-5 {
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #2980b9;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(41, 128, 185, 0.3);
+  width: auto;
+  display: inline-block;
+}
+
+button.mt-5:hover {
+  background: #21618c;
+  transform: scale(1.05);
+}
+
+/* Player Boards */
+.text-lg {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+/* Restart Button */
+.restart-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #e74c3c;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+}
+
+.restart-button:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}

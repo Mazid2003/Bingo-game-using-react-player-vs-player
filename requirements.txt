@@ -1,0 +1,73 @@
+✅ Requirements for Running the Bingo Game
+
+To run this React-based Bingo Game, ensure you have the following dependencies installed:
+
+1️⃣ System Requirements
+
+Before running the project, ensure your system meets the following requirements:
+
+🔹 Node.js (Version 16+ recommended) – Used to run JavaScript outside the browser.
+
+🔹 npm (Node Package Manager) – Comes bundled with Node.js.
+
+Check if you have Node.js installed:
+
+node -v
+
+Check npm version:
+
+npm -v
+
+If Node.js is not installed, download it from 👉 Node.js Official Website
+
+2️⃣ Project Dependencies
+
+This project uses the following npm packages:
+
+Dependency	Version	Purpose
+
+React	^18.0.0	Core library for building the UI
+
+React Hooks	Built-in	Used for managing component state (useState, useEffect)
+
+Tailwind CSS	^3.0.0	Utility-based styling framework
+
+Custom CSS	Custom	Enhances game board design
+
+3️⃣ Installation Guide
+
+Follow these steps to set up the project:
+
+Step 1: Clone the Repository
+
+git clone https://github.com/your-username/bingo-game.git
+
+cd bingo-game
+
+Step 2: Install Required Packages
+
+npm install
+
+Step 3: Start the Development Server
+
+npm start
+
+After running this command, the game will be available at:
+
+📌 http://localhost:3000/
+
+4️⃣ Optional (If Tailwind CSS is Missing)
+
+If you don’t see Tailwind styles applied, install Tailwind manually:
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+Then, add the Tailwind directives in your index.css:
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;

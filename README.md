@@ -40,7 +40,7 @@ State Management: React Hooks
 
 Clone the repository:
 
-git clone https://github.com/your-username/bingo-game.git
+git clone https://github.com/Mazid2003/Bingo-game-using-react-player-vs-player.git
 
 cd bingo-game
 

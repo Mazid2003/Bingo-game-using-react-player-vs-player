@@ -62,3 +62,8 @@ Open the game in your browser at http://localhost:3000/ 🎮
 
 🔹 Improve UI with animations and sound effects.
 
+📜 License
+
+This project is open-source under the MIT License. Feel free to use and
+modify it! 🚀
+

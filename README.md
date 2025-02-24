@@ -32,7 +32,7 @@ The first player to achieve this wins the game! 🏆
 
 Frontend: React.js (useState, useEffect)
 
-Styling: Tailwind CSS + Custom CSS
+Styling: Custom CSS
 
 State Management: React Hooks
 

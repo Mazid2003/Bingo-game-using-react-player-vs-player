@@ -54,6 +54,11 @@ npm start
 
 Open the game in your browser at http://localhost:3000/ 🎮
 
+**Screenshots**
+
+![screenshot_2025-05-13_10-04-53](https://github.com/user-attachments/assets/a2fa7f38-c097-4df7-9c7f-9387e3c2c7b1)
+
+
 **🎯 Future Improvements**
 
 🔹 Add a single-player mode against an AI opponent.

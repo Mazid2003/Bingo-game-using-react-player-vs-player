@@ -57,7 +57,7 @@ Open the game in your browser at http://localhost:3000/ 🎮
 **Screenshots**
 
 ![screenshot_2025-05-13_10-04-53](https://github.com/user-attachments/assets/a2fa7f38-c097-4df7-9c7f-9387e3c2c7b1)
-
+![screenshot_2025-05-13_10-06-07](https://github.com/user-attachments/assets/e3cb9e2f-72c7-4b5d-bfb6-317572d9416e)
 
 **🎯 Future Improvements**
 
